@@ -57,7 +57,7 @@ const Dashboard = () => {
 
           {/* Navigation Buttons */}
           <div className="flex-wrap gap-3 flex items-start justify-center">
-            <Button onClick={() => navigate('/detail-allianz')} variant="outline">
+            <Button onClick={() => navigate('/detail-allianz')} variant="outline" className="bg-[#cfbff6]">
               Detail Allianz
             </Button>
             <Button onClick={() => navigate('/detail-prudential')} variant="outline">
