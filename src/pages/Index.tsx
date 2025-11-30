@@ -74,7 +74,7 @@ const Dashboard = () => {
           {/* Summary Cards */}
           <div className="grid md:grid-cols-2 gap-6">
             <SentimentSummaryCard company="Allianz" positif={allianzSummary.positif} negatif={allianzSummary.negatif} netral={allianzSummary.netral} total={allianzComments.length} />
-            <SentimentSummaryCard company="Prudential" positif={prudentialSummary.positif} negatif={prudentialSummary.negatif} netral={prudentialSummary.netral} total={prudentialComments.length} />
+            <SentimentSummaryCard company="Prudential" positif={prudentialSummary.positif} negatif={prudentialSummary.negatif} netral={prudentialSummary.netral} total={prudentialComments.length} className="bg-[#cfbff6]" />
           </div>
 
           {/* Conclusion */}
