@@ -60,7 +60,7 @@ const Dashboard = () => {
             <Button onClick={() => navigate('/detail-allianz')} variant="outline" className="bg-[#cfbff6]">
               Detail Allianz
             </Button>
-            <Button onClick={() => navigate('/detail-prudential')} variant="outline">
+            <Button onClick={() => navigate('/detail-prudential')} variant="outline" className="bg-[#cfbff6]">
               Detail Prudential
             </Button>
           </div>
